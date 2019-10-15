@@ -109,10 +109,8 @@ config
 Com a adição do webpack como gerenciador e compactar o js e css, para auxiliar no desenvolvimento.
 
 <pre>
-
-  *Gemfile*
   
-  gem 'foreman'
+  gem install foreman
   
 </pre>
 
