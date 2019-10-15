@@ -28,13 +28,13 @@ app
 ├── helpers
 │   ├── application_helper.rb
 │   └── pedidos_helper.rb
-├── **javascript**
+├── javascript
 │   ├── channels
 │   │   ├── consumer.js
 │   │   └── index.js
-│   └── **packs
+│   └── packs
 │       ├── application.js
-│       └── bootstrap_custom.js**
+│       └── bootstrap_custom.js
 ├── jobs
 │   └── application_job.rb
 ├── mailers
@@ -43,9 +43,9 @@ app
 │   ├── application_record.rb
 │   ├── concerns
 │   └── pedido.rb
-├── **stylesheets
+├── stylesheets
 │   ├── application.scss
-│   └── bootstrap_custom.scss**
+│   └── bootstrap_custom.scss
 └── views
     ├── layouts
     │   ├── application.html.erb
@@ -95,12 +95,12 @@ config
 ├── routes.rb
 ├── spring.rb
 ├── storage.yml
-├── **webpack
+├── webpack
 │   ├── development.js
 │   ├── environment.js
 │   ├── production.js
 │   └── test.js
-└── webpacker.yml**
+└── webpacker.yml
 
 </pre>
 
@@ -110,7 +110,7 @@ Com a adição do webpack como gerenciador e compactar o js e css, para auxiliar
 
 <pre>
   
-  gem install foreman
+  $ gem install foreman
   
 </pre>
 
@@ -118,12 +118,12 @@ Utilização de um arquivo de configuração que nomei processos
 
 <pre>
 
-  *Procfile.dev*
+  ## Procfile.dev
   
   web: bundle exec puma -C config/puma.rb
   webpack: ./bin/webpack-dev-server
   
-  *Comando para start dos servidores*
+  ## Comando para start dos servidores
   
   $ foreman start -f Procfile.dev
 
