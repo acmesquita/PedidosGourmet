@@ -1,24 +1,3 @@
-# README
+# Pedidos Gourmet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Projeto exemplo para estudo de implementação de um sistema utilizando Rails 6.0.0 e Bootstrap 4, considerando as novas formas de importação de js e css em um projeto Rails.
